@@ -3,7 +3,7 @@
 Willkommen bei **Jura Modular**, einem modernen, modularen Verwaltungssystem für Kanzleien, Hausverwaltungen und digitale Rechtsservices. Unser Projekt zielt darauf ab, juristische und verwaltungstechnische Abläufe effizient und benutzerfreundlich zu digitalisieren – für Kanzleien, Mandanten und Partner.
 
 <p align="center">
-  <img src="https://github.com/livednoiz/DEVS.JURA-MODULAR.ORG/blob/main/docs/assets/images/jura-modular.png" alt="Jura-Modular Logo" width="50%"/>
+  <img src="https://github.com/SCHEIDOMAT/overview/blob/main/assets/images/jura-modular.png" alt="Jura-Modular Logo" width="50%"/>
 </p>
 
 ---
