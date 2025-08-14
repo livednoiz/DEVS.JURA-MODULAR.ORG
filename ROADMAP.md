@@ -79,8 +79,8 @@ Entwicklung einer skalierbaren, sicheren und intuitiven Plattform, die juristisc
   - [ ] Team Chat für Kanzlei-intern (in Planung)
   - [ ] File Attachments (Upload-Feld vorhanden, UI folgt)
 
-- [ ] **Email Integration**
-  - [ ] SMTP/IMAP Configuration
+- [x] **Email Integration** (Backend-Modelle, API-Endpunkte, Tests & Dokumentation abgeschlossen, August 2025)
+  - [x] SMTP/IMAP Configuration
   - [ ] Email Templates für Standard-Antworten
   - [ ] Email-to-Case Assignment
   - [ ] Automated Notifications
