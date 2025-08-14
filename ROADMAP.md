@@ -82,12 +82,12 @@ Entwicklung einer skalierbaren, sicheren und intuitiven Plattform, die juristisc
 - [x] **Email Integration** (Backend-Modelle, API-Endpunkte, Tests & Dokumentation abgeschlossen, August 2025)
   - [x] SMTP/IMAP Configuration
   - [x] Email Templates für Standard-Antworten
-  - [ ] Email-to-Case Assignment
+  - [x] Email-to-Case Assignment
   - [ ] Automated Notifications
 
-- [ ] **Notification System**
+ - [x] **Notification System (API & Service)** (Backend-Modelle, API-Endpunkte, Tests & Dokumentation abgeschlossen August 2025)
+  - [ ] Erweiterte Trigger (Deadlines, Statuswechsel, neue Nachrichten)
   - [ ] Real-time Notifications (WebSocket)
-  - [ ] Email Alerts für Deadlines
   - [ ] Mobile Push Notifications (später)
 
 #### 🎯 **Milestone 2.3: Workflow Automation** (Dezember 2025)

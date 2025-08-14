@@ -15,7 +15,8 @@ Die Email-Integration ermöglicht den Versand und Empfang von E-Mails direkt aus
 ✅ Grundlegende Tests für Modelle und Versand
 ✅ IMAP-Empfangsmodul (Empfang, Management Command, Tests) abgeschlossen
 ✅ EmailTemplate-Feature (Modell, API, Tests) abgeschlossen (August 2025)
-🚧 Automatisierung und Zuordnung zu Fällen in Planung
+✅ Automatisierung (IMAP-Abruf, Celery-Task) abgeschlossen (August 2025)
+✅ Email-to-Case Assignment (automatische Zuordnung, Tests abgeschlossen, August 2025)
 
 ## Beispiel-Workflow
 1. Anwalt erstellt eine OutgoingEmail im System
