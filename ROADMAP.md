@@ -81,7 +81,7 @@ Entwicklung einer skalierbaren, sicheren und intuitiven Plattform, die juristisc
 
 - [x] **Email Integration** (Backend-Modelle, API-Endpunkte, Tests & Dokumentation abgeschlossen, August 2025)
   - [x] SMTP/IMAP Configuration
-  - [ ] Email Templates für Standard-Antworten
+  - [x] Email Templates für Standard-Antworten
   - [ ] Email-to-Case Assignment
   - [ ] Automated Notifications
 
