@@ -63,10 +63,11 @@
 
 ## 🎯 What's Next
 
-### **Phase 2.2: Communication Hub** (September 2025)
-- Internal Messaging System
-- Email Integration
-- Real-time Notifications
+
+### **Phase 2.2: Communication Hub** (August 2025 - IN DEVELOPMENT)
+- Internal Messaging System (Backend-Modelle & API-Endpunkte implementiert)
+- 6/6 Communication-Tests erfolgreich (Modelle & API)
+- Team Chat, Email Integration, Real-time Notifications: in Planung
 
 ### **Phase 2.3: Workflow Automation** (Oktober 2025)  
 - Advanced Task Management
