@@ -10,13 +10,17 @@ Die Email-Integration ermöglicht den Versand und Empfang von E-Mails direkt aus
  - **EmailTemplate**: Vorlagen für Standardantworten (Name, Betreff, Text, Kategorie, aktiv)
  - **API-Endpunkte**: REST-API für E-Mail-Versand, -Empfang und Vorlagenmanagement
 
+
 ## Status
 ✅ Backend-Modelle und API-Endpunkte implementiert
 ✅ Grundlegende Tests für Modelle und Versand
 ✅ IMAP-Empfangsmodul (Empfang, Management Command, Tests) abgeschlossen
 ✅ EmailTemplate-Feature (Modell, API, Tests) abgeschlossen (August 2025)
-✅ Automatisierung (IMAP-Abruf, Celery-Task) abgeschlossen (August 2025)
-✅ Email-to-Case Assignment (automatische Zuordnung, Tests abgeschlossen, August 2025)
+✅ Automatisierung (IMAP-Abruf, Celery-Task, automatisierte Benachrichtigungen) abgeschlossen (August 2025)
+✅ Email-to-Case Assignment (automatische Zuordnung, Trigger für Benachrichtigungen, Tests abgeschlossen, August 2025)
+✅ Erweiterte Trigger: Benachrichtigung bei neuer E-Mail, Statuswechsel, Deadlines
+✅ Echtzeit-Benachrichtigungen via WebSocket integriert
+✅ Vollständige Testabdeckung für alle Email- und Notification-Features
 
 ## Beispiel-Workflow
 1. Anwalt erstellt eine OutgoingEmail im System

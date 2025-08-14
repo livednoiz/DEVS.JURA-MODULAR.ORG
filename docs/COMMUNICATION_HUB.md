@@ -26,14 +26,17 @@ Das Communication Hub Modul ermöglicht die interne Kommunikation zwischen Anwä
 }
 ```
 
+
 ## Status
 - ✅ Backend-Modelle und API-Endpunkte implementiert
+- ✅ Erweiterte Trigger für Benachrichtigungen (Statuswechsel, Deadlines, neue Nachrichten)
+- ✅ Echtzeit-Benachrichtigungen via WebSocket (Django Channels, Redis)
+- ✅ Vollständige Testabdeckung für Messaging, Email und Notification
 - 🚧 Team-Chat und UI-Integration in Planung
-- 🚧 Erweiterte Benachrichtigungen und E-Mail-Integration folgen
+- 🚧 Mobile Push Notifications folgen
 
 ## Weitere Schritte
-- Frontend-Anbindung für Messaging
-- Erweiterung um Echtzeit-Benachrichtigungen
+- Frontend-Anbindung für Messaging und Echtzeit-Benachrichtigungen
 - Integration mit Case- und User-Modulen
 
 ---
