@@ -71,11 +71,13 @@ Entwicklung einer skalierbaren, sicheren und intuitiven Plattform, die juristisc
 - ✅ **Database Migrations** erfolgreich angewandt
 
 #### 🎯 **Milestone 2.2: Communication Hub** (November 2025)
-- [ ] **Internal Messaging System**
-  - [ ] Lawyer-Client Communication
-  - [ ] Team Chat für Kanzlei-intern
-  - [ ] Message Threading & Search
-  - [ ] File Attachments
+
+#### 🚧 **Milestone 2.2: Communication Hub** (August 2025 - IN DEVELOPMENT)
+- [x] **Internal Messaging System** (Backend-Modelle & API-Endpunkte implementiert)
+  - [x] Lawyer-Client Communication (Message, MessageThread Modelle)
+  - [x] Message Threading & Search (Grundstruktur vorhanden)
+  - [ ] Team Chat für Kanzlei-intern (in Planung)
+  - [ ] File Attachments (Upload-Feld vorhanden, UI folgt)
 
 - [ ] **Email Integration**
   - [ ] SMTP/IMAP Configuration
