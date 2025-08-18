@@ -92,24 +92,35 @@ Entwicklung einer skalierbaren, sicheren und intuitiven Plattform, die juristisc
   - [x] Real-time Notifications (WebSocket, Channels, Redis, Tests)
   - [ ] Mobile Push Notifications (später)
 
-**Technische Highlights August 2025:**
-- Vollständige Testabdeckung für Messaging, Email und Notification
-- Echtzeit-Benachrichtigungen via WebSocket (Django Channels, Redis)
-- Automatisierte E-Mail-Zuordnung und Benachrichtigungstrigger
-- Dokumentation und API-Guides für alle Kommunikationsfeatures
+**📊 Technische Highlights August 2025:**
+- ✅ **Vollständige Testabdeckung** für Messaging, Email und Notification
+- ✅ **Echtzeit-Benachrichtigungen** via WebSocket (Django Channels, Redis)
+- ✅ **Automatisierte E-Mail-Zuordnung und Benachrichtigungstrigger**
+- ✅ **Dokumentation und API-Guides** für alle Kommunikationsfeatures
 
-#### 🎯 **Milestone 2.3: Workflow Automation** (Dezember 2025)
-- [ ] **Task Management**
-  - [ ] TODO Lists pro Case
-  - [ ] Task Assignment & Deadlines
-  - [ ] Reminder System
-  - [ ] Progress Tracking
+#### 🎯 **Milestone 2.3: Workflow Automation** (August 2025)
+
+ [x] **Task Management & Workflow Automation**
+  - [x] Aufgaben-Modell mit Subtasks, Priorität, Status, Deadline, Fortschritt
+  - [x] Zuweisung von Aufgaben an Nutzer/Rollen
+  - [x] TODO-Listen pro Case und global
+  - [x] Fortschritts- und Status-Tracking (offen, erledigt, überfällig)
+  - [x] API-Endpunkte für Aufgaben und Subtasks
+  - [x] Testabdeckung für alle Kernfunktionen (Modelle, API, Trigger)
+
+**📊 Technische Highlights August 2025:**
+- ✅ **CaseTask & SubTask** Modelle produktiv
+- ✅ **Vollständige API-Endpunkte** für Aufgaben und Subtasks
+- ✅ **Eigene Test-Suite** für alle Kernfunktionen
+
 
 - [ ] **Template System**
-  - [ ] Document Templates (Verträge, Briefe)
-  - [ ] Email Templates
-  - [ ] Workflow Templates
-  - [ ] Custom Field Support
+  - [ ] Dokumentvorlagen (Verträge, Briefe, Schriftsätze)
+  - [ ] E-Mail-Vorlagen für Standardkommunikation
+  - [ ] Workflow-Vorlagen (z.B. Standardabläufe für bestimmte Falltypen)
+  - [ ] Custom Field Support für flexible Workflows
+  - [ ] API-Endpunkte für Vorlagenmanagement und Anwendung
+  - [ ] Testabdeckung für alle Template-Funktionen
 
 ---
 
@@ -141,65 +152,66 @@ Entwicklung einer skalierbaren, sicheren und intuitiven Plattform, die juristisc
 - [ ] **Financial Integration**
   - [ ] Invoice Generation
   - [ ] Payment Tracking
-  - [ ] SEPA Integration
-  - [ ] Tax Reporting
+  # ROADMAP Jura Modular
 
-#### 🎯 **Milestone 3.3: Analytics & Reporting** (März 2026)
-- [ ] **Business Intelligence**
-  - [ ] Case Statistics Dashboard
-  - [ ] Financial Reports
-  - [ ] Performance Metrics
-  - [ ] Client Analytics
+  ## Stand: August 2025
 
-- [ ] **Advanced Reporting**
-  - [ ] Custom Report Builder
-  - [ ] Automated Report Generation
-  - [ ] Data Export (Excel, PDF, CSV)
-  - [ ] Graphical Visualizations
+  ---
 
----
+  ### 1. Basis & Architektur
+  - Django-Backend mit modularen Apps (accounts, cases, appointments, users, ...)
+  - Angular-Frontend
+  - REST-API mit DRF
+  - SQLite für Entwicklung
 
-### 🎨 **Phase 4: Frontend & UX** (Q2 2026)
-> *Moderne Benutzeroberfläche und User Experience*
+  ---
 
-#### 🎯 **Milestone 4.1: Angular Frontend** (April 2026)
-- [ ] **Core Frontend Architecture**
-  - [ ] Angular 17+ Application
-  - [ ] Responsive Design (Mobile-First)
-  - [ ] PWA Support
-  - [ ] Offline Capabilities
+  ### 2. Meilensteine
 
-- [ ] **Authentication UI**
-  - [ ] Login/Registration Forms
-  - [ ] 2FA Setup Interface
-  - [ ] Password Reset Flow
-  - [ ] Profile Management
+  #### 2.1 Aufgaben- & Workflow-Management
+  - Mandatsaufgaben, Subtasks, Status, Prioritäten
+  - Automatisierte Workflows für Falltypen
+  - API & Testabdeckung
 
-#### 🎯 **Milestone 4.2: Dashboard & Navigation** (Mai 2026)
-- [ ] **User Dashboards**
-  - [ ] Role-specific Dashboards
-  - [ ] Customizable Widgets
-  - [ ] Quick Actions
-  - [ ] Recent Activity Feed
+  #### 2.2 Benachrichtigungen & Kommunikation
+  - E-Mail-Vorlagen, Benachrichtigungslogik
+  - API für Vorlagen & Versand
+  - Testabdeckung
 
-- [ ] **Navigation System**
-  - [ ] Sidebar Navigation
-  - [ ] Breadcrumb System
-  - [ ] Search Functionality
-  - [ ] Keyboard Shortcuts
+  #### 2.3 Template-System
+  - Dokumentvorlagen, E-Mail-Vorlagen, Workflow-Vorlagen
+  - Flexible custom_fields für Workflows
+  - Admin-Integration & API
+  - Testabdeckung (pytest)
 
-#### 🎯 **Milestone 4.3: Advanced UI Components** (Juni 2026)
-- [ ] **Data Tables & Forms**
-  - [ ] Advanced Data Grids
-  - [ ] Form Validation
-  - [ ] File Upload Components
-  - [ ] Rich Text Editor
+  ---
 
-- [ ] **Interactive Features**
-  - [ ] Drag & Drop Interfaces
-  - [ ] Real-time Updates
-  - [ ] Chat Interface
-  - [ ] Calendar Components
+  ### 3. Nächste Schritte
+  - Erweiterung der Testabdeckung für alle Apps
+  - Dokumentation in `docs/` ausbauen
+  - Mehrsprachigkeit & UI-Optimierung
+  - Erweiterbare API für externe Integrationen
+  - KI-Features (z.B. automatische Dokumentenerstellung)
+
+  ---
+
+  ### 4. Dokumentation
+  - Architektur: docs/ARCHITECTURE.md
+  - Workflow: docs/WORKFLOW_AUTOMATION.md
+  - Cases: docs/CASES_MANAGEMENT.md
+  - Kommunikation: docs/COMMUNICATION_EMAIL.md, docs/COMMUNICATION_NOTIFICATION.md
+  - Template-System: docs/TEMPLATE_SYSTEM.md
+  - Getting Started: docs/GETTING_STARTED.md
+
+  ---
+
+  ### 5. Lizenz & Kommerzielle Nutzung
+  - AGPLv3 für Open Source
+  - Kommerzielle Lizenz: LICENSE-commercial.txt, COMMERCIAL-OFFER.md
+
+  ---
+
+  > Diese ROADMAP wird laufend aktualisiert. Für Feedback, Feature-Wünsche oder Pull Requests bitte direkt im Repository melden.
 
 ---
 

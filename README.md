@@ -62,10 +62,11 @@ jura-modular.org/
 * PEP8-konformer Code
 * Icon-Unterstützung via [Simple Icons](https://simpleicons.org/) oder [Twemoji](https://twemoji.twitter.com/)
 
----
 
+Weitere Details zu den Workflow- und Aufgaben-Features findest du in der ausführlichen Dokumentation:
+
+[📄 Workflow Automation & Task Management](docs/workflow-automation.md)
 ## 📦 Installation (Entwicklungsumgebung)
-
 ### 1. Backend (Django)
 
 ```bash
